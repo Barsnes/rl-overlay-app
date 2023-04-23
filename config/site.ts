@@ -1,18 +1,12 @@
-export type SiteConfig = typeof siteConfig
-
 export const siteConfig = {
-  name: "Next.js",
+  name: "RL UI",
+  url: "http://localhost:3000",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
-  mainNav: [
-    {
-      title: "Home",
-      href: "/",
-    },
-  ],
+    "A collection of React components and hooks for building accessible, responsive, and performant UIs.",
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    twitter: "https://twitter.com/TorskenXD",
+    github: "https://github.com/barsnes",
   },
 }
+
+export type SiteConfig = typeof siteConfig
